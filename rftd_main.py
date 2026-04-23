@@ -11,7 +11,7 @@ import pandas as pd
 from copy import deepcopy
 import math
 
-# Infrastructure imports
+
 from Utils.utils import (
     Logger, get_strategy_info, read_json, now, refresh,
     get_strike_from_trading_symbol, df_to_image, add_comma,
@@ -45,13 +45,7 @@ class Signal:
 
 
 class RFTDStrategy:
-    """
-    RFTD Strategy
-    - VAR hedge: placed at strategy_var_entry_time on naked SHORTs, exited at strategy_var_exit_time
-    - VAR hedges persisted to SHM so they survive restarts
-    - No margin hedge
-    - No EOD expiry cleanup
-    """
+   
 
     VERSION = "8.1.0"
 
