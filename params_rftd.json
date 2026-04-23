@@ -1,0 +1,72 @@
+{
+    "RFTD_NIFTY": {
+        "broker_name": "IIFL",
+        "account_id": "CHSINGHI dev",
+        "slack_channel": "rftd",
+        "offset_type": "absolute",
+        "offset_value": 5,
+        "tagpos_ss_timeframe": 30,
+        "exchange": "NFO",
+        "product": "NRML",
+        "symbol_spot": "NIFTY 50",
+        "spot_exchange": "NSE",
+        "strike_step": 50,
+        "loop_interval": 5,
+        "sell_capital_ratio": 10,
+        "buy_capital_ratio": 10,
+        "hedge_strike_diff_perc": 2.5,
+        "hedge_margin_limit": 80,
+        "max_margin_limit": 95,
+        "total_capital": 600000,
+        "var_risk_pct": 5,
+        
+        "strategy_var_entry_time": "15:20:00",
+        "strategy_var_exit_time": "09:20:00"
+    },
+    
+    "RFTD_SENSEX": {
+        "broker_name": "simulation",
+        "account_id": "simulation",
+        "slack_channel": "rftd",
+        "offset_type": "absolute",
+        "offset_value": 5,
+        "tagpos_ss_timeframe": 30,
+        "exchange": "BFO",
+        "product": "NRML",
+        "symbol_spot": "SENSEX",
+        "spot_exchange": "BSE",
+        "strike_step": 100,
+        "loop_interval": 5,
+        
+        "hedge_strike_diff_perc": 2.5,
+        "hedge_margin_limit": 80,
+        "max_margin_limit": 95,
+        "total_capital": 1000000,
+        "var_risk_pct": 5,
+         "strategy_var_entry_time": "15:20:00",
+        "strategy_var_exit_time": "09:20:00"
+    },
+    
+    "RFTD_BN": {
+        "broker_name": "simulation",
+        "account_id": "simulation",
+        "slack_channel": "rftd",
+        "offset_type": "absolute",
+        "offset_value": 5,
+        "tagpos_ss_timeframe": 30,
+        "exchange": "NFO",
+        "product": "NRML",
+        "symbol_spot": "NIFTY BANK",
+        "spot_exchange": "NSE",
+        "strike_step": 100,
+        "loop_interval": 5,
+        
+        "hedge_strike_diff_perc": 2.5,
+        "hedge_margin_limit": 80,
+        "max_margin_limit": 95,
+        "total_capital": 1000000,
+        "var_risk_pct": 5,
+        "strategy_var_entry_time": "15:20:00",
+        "strategy_var_exit_time": "09:20:00"
+    }
+}
